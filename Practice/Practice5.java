@@ -25,11 +25,19 @@ public class Practice5 {
 
         // Practice 3 ------>
 
+        // Scanner s = new Scanner(System.in);
+        // System.out.print("Enter Number : ");
+        // int a = s.nextInt();
+        // for(int i=1;i<=10;i++){
+        //     System.out.println(a+" * "+i+" = "+(a*i));
+        // }
+
+        // Practice 4 ------>
         Scanner s = new Scanner(System.in);
         System.out.print("Enter Number : ");
-        int a = s.nextInt();
-        for(int i=1;i<=10;i++){
-            System.out.println(a+" * "+i+" = "+(a*i));
+        int a1 = 10;
+        for(int i=10;i>=1;i--){
+            System.out.println(a1+" * "+i+" = "+(a1*i));
         }
-    }
+}
 }

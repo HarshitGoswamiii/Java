@@ -1,5 +1,4 @@
 
-import java.awt.geom.Ellipse2D;
 import java.util.Scanner;
 
 public class Practice4 {
@@ -67,7 +66,7 @@ public class Practice4 {
         // int m=s.nextInt();
         // int avg=(e+h+m)/3;
         // System.out.println("Overall Percentage : "+avg);
-        // i(avg>=40 && e>=33 && h>=33 && m>=33){
+        // if(avg>=40 && e>=33 && h>=33 && m>=33){
         //     System.out.println("You are passed.");
         // }
         // else{
