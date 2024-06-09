@@ -13,13 +13,17 @@ public class Practice5 {
 
         // Practice 2-------->
 
-        int n1 = 5;
-        int k1=1;
-        int k = 0;
-        while (k <= n1) {
-            k1 += n1;
-            k1++;
-        }
-        System.out.println("Ans. : " + k1);
+        // int n1 = 5;
+        // int k1=1;
+        // int k = 0;
+        // while (k <= n1) {
+        //     k1 += n1;
+        //     k++;
+        // }
+        // System.out.println("Ans. : " + k1);
+
+        // Practice 3 ------>
+
+        
     }
 }
