@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Practice5 {
     public static void main(String[] args) {
 
@@ -33,11 +32,20 @@ public class Practice5 {
         // }
 
         // Practice 4 ------>
+        // Scanner s = new Scanner(System.in);
+        // System.out.print("Enter Number : ");
+        // int a1 = 10;
+        // for(int i=10;i>=1;i--){
+        //     System.out.println(a1+" * "+i+" = "+(a1*i));
+        // }
+
+        // Practice 5 ------->
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter Number : ");
-        int a1 = 10;
-        for(int i=10;i>=1;i--){
-            System.out.println(a1+" * "+i+" = "+(a1*i));
+        System.out.print("Enter The number : ");
+        int a = s.nextInt();
+        for (int i =1;i<=a;i++){
+            System.out.println("Factorial of "+a+" : "+(i*(i-1)));
         }
+
 }
 }
