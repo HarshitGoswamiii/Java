@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Practice5 {
     public static void main(String[] args) {
@@ -24,6 +25,10 @@ public class Practice5 {
 
         // Practice 3 ------>
 
-        
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        for(int i=0;i<=10;i++){
+            System.out.println(a+" * "+i+" = "+(a*i));
+        }
     }
 }
