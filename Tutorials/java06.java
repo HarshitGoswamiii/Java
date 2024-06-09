@@ -8,7 +8,7 @@ public class java06 {
         System.out.print("Enter The Number : ");
         int n = s.nextInt();
         for (int i = 0; i  <= n ; i++) {
-            System.out.println(i);
+            System.out.println(2*i+1);
         }
 
         // Do-While Loop
