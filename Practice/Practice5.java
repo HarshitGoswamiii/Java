@@ -26,8 +26,9 @@ public class Practice5 {
         // Practice 3 ------>
 
         Scanner s = new Scanner(System.in);
+        System.out.print("Enter Number : ");
         int a = s.nextInt();
-        for(int i=0;i<=10;i++){
+        for(int i=1;i<=10;i++){
             System.out.println(a+" * "+i+" = "+(a*i));
         }
     }
