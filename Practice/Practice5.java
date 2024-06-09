@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Practice5 {
     public static void main(String[] args) {
 
@@ -40,12 +39,25 @@ public class Practice5 {
         // }
 
         // Practice 5 ------->
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter The number : ");
-        int a = s.nextInt();
-        for (int i =1;i<=a;i++){
-            System.out.println("Factorial of "+a+" : "+(i*(i-1)));
-        }
+        // Scanner s = new Scanner(System.in);
+        // System.out.print("Enter The number : ");
+        // int a = s.nextInt();
+        // int f=1;
+        // for (int i =1;i<=a;i++){
+        //     f=f*i;
+        // }
+        // System.out.println("Factorial of "+a+" : "+f);
+        // }
 
-}
-}
+
+        // Practice  --------->
+        System.out.print("Enter Number : ");
+        int a = 8;
+        int n=0;
+        for(int i=1;i<=10;i++){
+            int mul=a*i;
+            System.out.println(a+" * "+i+" = "+mul);
+            n=n+mul;
+            }
+        System.out.println("The Sum of Table 8 : "+n);
+}}
