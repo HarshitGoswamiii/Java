@@ -23,7 +23,7 @@ public class java06 {
         //         System.out.println(i);
         //         i++;
         //     }
-        //     System.out.println("Thankyou !");
-        // System.out.println("End of the Loop !");
+            System.out.println("Thankyou !");
+        System.out.println("End of the Loop !");
     }
 }
