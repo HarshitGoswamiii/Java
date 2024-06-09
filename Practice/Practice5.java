@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Practice5 {
     public static void main(String[] args) {
@@ -11,13 +10,6 @@ public class Practice5 {
         //     }
         //     System.out.print("\n");
         // }
-
-        // Practice 2 ------->
-        int w=0;
-        Scanner s =new Scanner(System.in);
-        int d= s.nextInt();
-        while(w<=d){
-            
-        }
+        
     }
 }
