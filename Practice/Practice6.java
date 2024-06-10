@@ -20,5 +20,11 @@ public class Practice6 {
         System.out.print("Enter Number : ");
         int a = s.nextInt();
         int[] arr = {10,20,30,40};
+        if(a==arr[]){
+            System.out.println("The Element is present in Array !");
+        }
+        else{
+            System.out.println("Not Present !");
+        }
     }
 }
