@@ -37,7 +37,7 @@ public class java07_m_array {
                     System.out.print(flat[i][j][k]);
                     System.out.print(" ");
                 }
-                System.out.print("");
+                System.out.println();
             }
             System.out.println("");
         }
