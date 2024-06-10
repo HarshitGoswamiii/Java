@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class java06 {
+public class java06_Loops{
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

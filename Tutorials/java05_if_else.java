@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class java05 {
+public class java05_if_else {
     public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     System.out.print("Enter the value of A : ");
