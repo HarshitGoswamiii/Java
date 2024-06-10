@@ -5,13 +5,13 @@ public class Practice6 {
         
         // Practice 1 ------->
 
-        // float[] arr = {10.5f,19.7f,33.4f,12.4f};
-        // float sum=0;
-        // for(int i =0; i < arr.length; i++){
-        //     sum= sum+arr[i];
-        //     // System.out.println(sum);
-        // }
-        // System.out.println(sum);
+        float[] arr = {10.5f,19.7f,33.4f,12.4f};
+        float sum=0;
+        for(int i =0; i < arr.length; i++){
+            sum= sum+arr[i];
+            // System.out.println(sum);
+        }
+        System.out.println(sum);
 
         //  Practice 2 ----->
 
@@ -45,10 +45,13 @@ public class Practice6 {
         
         // Practice 5 ------>
 
-        int[] physics= {50,32,22,15,46,44};
-        for (int i = physics.length -1 ; i >= 0; i--) {
-            System.out.println(physics[i]);
-        }
+        // int[] physics= {50,32,22,15,46,44};
+        // for (int i = physics.length -1 ; i >= 0; i--) {
+        //     System.out.println(physics[i]);
+        // }
 
+        // Practice 6 ------->
+
+        // System.out.println("Maximum : " + physics);
     }
 }
