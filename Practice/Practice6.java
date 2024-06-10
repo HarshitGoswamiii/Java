@@ -43,9 +43,12 @@ public class Practice6 {
         // avg = sum/physics.length;
         // System.out.println("Ans : "+avg);
         
-        // Practice 4 ------>
+        // Practice 5 ------>
 
-        
-        
+        int[] physics= {50,32,22,15,46,44};
+        for (int i = physics.length -1 ; i >= 0; i--) {
+            System.out.println(physics[i]);
+        }
+
     }
 }
