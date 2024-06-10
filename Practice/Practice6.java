@@ -1,5 +1,4 @@
 
-import java.util.Scanner;
 
 public class Practice6 {
     public static void main(String[] args) {
@@ -16,15 +15,37 @@ public class Practice6 {
 
         //  Practice 2 ----->
 
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter Number : ");
-        int a = s.nextInt();
-        int[] arr = {10,20,30,40};
-        if(a==arr[]){
-            System.out.println("The Element is present in Array !");
-        }
-        else{
-            System.out.println("Not Present !");
-        }
+        // boolean a1 = false;
+        // System.out.print("Enter Number : ");
+        // Scanner s = new Scanner(System.in);
+        // int a = s.nextInt();
+        // int[] arr = {10,20,30,40};
+        // for (int element : arr) {
+        //     if(a==element){
+        //         a1=true;
+        //         break;
+        //         }}
+        //         if(a1){
+        //             System.out.println("Element is Present !");
+        //             }
+        //             else{
+        //                 System.out.println("Not Present !");            
+        //                 }
+
+        // Practice 3 ------->
+
+        // float[] physics= {50,32,22,15,46,44};
+        // float sum=0;
+        // float avg;
+        // for (float element : physics){
+        //     sum=sum+element;
+        // }
+        // avg = sum/physics.length;
+        // System.out.println("Ans : "+avg);
+        
+        // Practice 4 ------>
+
+        
+        
     }
 }
