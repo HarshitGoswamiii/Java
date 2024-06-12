@@ -24,16 +24,20 @@ public class Practice7 {
     //      pattern(5);
     //  }
 
+    // Practice 3 ----->
+
+    
+
     // Practice 4 -------->
-    static void pattern(int n){
-        for(int i>n; i=0;i--){
-            for(int j>i;j=0;j--){
-                System.out.println("*");
-            }
-            System.out.println(" ");
-        }
-    }
-    public static void main(String[] args) {
-        pattern(5);
-    }
+    // static void pattern(int n){
+    //     for(int i=n; i>=1;i--){
+    //         for(int j=i;j>=1;j--){
+    //             System.out.print("*");
+    //         }
+    //         System.out.println(" ");
+    //     }
+    // }
+    // public static void main(String[] args) {
+    //     pattern(4);
+    // }
 }
