@@ -12,7 +12,10 @@ public class java09_recursion {
         }
     }
     public static void main(String[] args) {
-        System.out.println(fib(100));
+        int a=10;
+        for(int i=0;i<a;i++){
+            System.out.println(fib(i) + " ");
+        }
     }
 
 
