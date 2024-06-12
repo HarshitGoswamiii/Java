@@ -26,7 +26,16 @@ public class Practice7 {
 
     // Practice 3 ----->
 
+    static void  add(int n){
+        for(int i =0; i<=n;i++){
+            // int j=0;
+            i+=i;
+        }
+        System.out.println("Sum : "+i);
+    }
+    public static void main(String[] args) {
     
+    add(5);
 
     // Practice 4 -------->
     // static void pattern(int n){
@@ -40,4 +49,4 @@ public class Practice7 {
     // public static void main(String[] args) {
     //     pattern(4);
     // }
-}
+}}
