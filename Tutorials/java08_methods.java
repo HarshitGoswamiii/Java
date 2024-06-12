@@ -5,7 +5,7 @@ public class java08_methods {
     static int foo(int ...arr){
         int result=0;
         for(int a:arr){
-            result += a;
+            result -= a;
         }
         return result;
     }
