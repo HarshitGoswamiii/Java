@@ -53,18 +53,33 @@ public class Practice7 {
 
     // Practice 5 -------->
 
-        static int  fib(int n){
-            if(n==1){
-                return 0;
-            }
-            else if(n==2){
-                return 1;
-            }
-            else{
-                return fib(n-1) + fib(n-2);
-            }}
-    public static void main(String[] args){
-        int result=fib(9);
-        System.out.println("Fibonacci Series : "+ result);
+    //     static int  fib(int n){
+    //         if(n==1){
+    //             return 0;
+    //         }
+    //         else if(n==2){
+    //             return 1;
+    //         }
+    //         else{
+    //             return fib(n-1) + fib(n-2);
+    //         }}
+    // public static void main(String[] args){
+    //     int result=fib(9);
+    //     System.out.println("Fibonacci Series : "+ result);
 
-        }}
+    // Practice 6 ------->
+
+    static int setn(int ...arr){
+        int num=0;
+        for (int element : arr){
+            num +=element; 
+        }
+        return num;
+    }
+    public static void main(String[] args) {
+        int i=setn(7,2,4,6);
+        System.out.println("Sum : "+i);
+        int avg= i/4;
+        System.out.println("Average : " + avg);
+        
+    }}
