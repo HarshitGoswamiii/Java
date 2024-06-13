@@ -50,14 +50,16 @@ public class Practice5 {
         // }
 
         // Practice 6 ------->
-        int a = 4;
-        int f = 0;
-        int num = 0;
-        while (f <= a) {
-            num = num * f;
-            // f++;
-        }
-        System.out.println(num);
+        // int a = 5;
+        // int f = 1;
+        // int num = 1;
+        // while (f <= a) {
+        //     num = num * f;
+        //     f++;
+        // }
+        // System.out.println(num);
+
+        
 
         // Practice --------->
         // System.out.print("Enter Number : ");
