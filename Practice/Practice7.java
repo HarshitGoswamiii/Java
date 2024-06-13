@@ -26,17 +26,17 @@ public class Practice7 {
 
     // Practice 3 ----->
 
-    static void add(int n){
-        for(int i =0; i<=n;i++){
-            int sum=0;
-            sum += i;
-            // return sum;
-        System.out.println("Sum : "+sum);
-        }
-    }
-    public static void main(String[] args) {
-    
-    add(5);
+    // static int add(int n){
+    //     if(n==0||n==1){
+    //         return 1;
+    //     }
+    //     else{
+    //         return n +add(n-1);
+    //     }
+    // }
+    // public static void main(String[] args) {
+    // System.out.println("Sum : "+add(1));
+
 
     // Practice 4 -------->
     // static void pattern(int n){
