@@ -64,7 +64,7 @@ public class Practice7 {
                 return fib(n-1) + fib(n-2);
             }}
     public static void main(String[] args){
-
-        System.out.println("Fibonacci Series "+ fib(7));
+        int result=fib(9);
+        System.out.println("Fibonacci Series : "+ result);
 
         }}
