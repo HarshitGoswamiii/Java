@@ -51,9 +51,10 @@ public class Practice5 {
 
         // Practice 6 ------->
         int a=4;
-        int f=1;
+        int f=0;
         while (f<=a) {
-            f=f+a;
+            f = a*(a-1);
+            // f++;
         }
         System.out.println(f);
 
