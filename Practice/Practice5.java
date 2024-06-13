@@ -59,10 +59,11 @@ public class Practice5 {
         // }
         // System.out.println(num);
 
+        // Practice 7 -------->
+
         
 
-        // Practice --------->
-        // System.out.print("Enter Number : ");
+        // Practice 9 --------->
         // int a = 8;
         // int n=0;
         // for(int i=1;i<=10;i++){
