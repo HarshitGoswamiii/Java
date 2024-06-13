@@ -29,7 +29,7 @@ public class Practice7 {
     static void add(int n){
         for(int i =0; i<=n;i++){
             int sum=0;
-            sum= sum+i;
+            sum += i;
             // return sum;
         System.out.println("Sum : "+sum);
         }
