@@ -69,17 +69,17 @@ public class Practice7 {
 
     // Practice 6 ------->
 
-    static int setn(int ...arr){
-        int num=0;
-        for (int element : arr){
-            num +=element; 
-        }
-        return num;
-    }
-    public static void main(String[] args) {
-        int i=setn(7,2,4,6);
-        System.out.println("Sum : "+i);
-        int avg= i/4;
-        System.out.println("Average : " + avg);
+    // static int setn(int ...arr){
+    //     int num=0;
+    //     for (int element : arr){
+    //         num +=element; 
+    //     }
+    //     return num;
+    // }
+    // public static void main(String[] args) {
+    //     int i=setn(7,2,4,6);
+    //     System.out.println("Sum : "+i);
+    //     int avg= i/4;
+    //     System.out.println("Average : " + avg);
         
-    }}
+    }
