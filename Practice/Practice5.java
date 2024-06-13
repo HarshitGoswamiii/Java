@@ -16,8 +16,8 @@ public class Practice5 {
         // int k1=1;
         // int k = 0;
         // while (k <= n1) {
-        //     k1 += n1;
-        //     k++;
+        // k1 += n1;
+        // k++;
         // }
         // System.out.println("Ans. : " + k1);
 
@@ -27,7 +27,7 @@ public class Practice5 {
         // System.out.print("Enter Number : ");
         // int a = s.nextInt();
         // for(int i=1;i<=10;i++){
-        //     System.out.println(a+" * "+i+" = "+(a*i));
+        // System.out.println(a+" * "+i+" = "+(a*i));
         // }
 
         // Practice 4 ------>
@@ -35,7 +35,7 @@ public class Practice5 {
         // System.out.print("Enter Number : ");
         // int a1 = 10;
         // for(int i=10;i>=1;i--){
-        //     System.out.println(a1+" * "+i+" = "+(a1*i));
+        // System.out.println(a1+" * "+i+" = "+(a1*i));
         // }
 
         // Practice 5 ------->
@@ -44,29 +44,30 @@ public class Practice5 {
         // int a = s.nextInt();
         // int f=1;
         // for (int i =1;i<=a;i++){
-        //     f=f*i;
+        // f=f*i;
         // }
         // System.out.println("Factorial of "+a+" : "+f);
         // }
 
         // Practice 6 ------->
-        int a=4;
-        int f=0;
-        while (f<=a) {
-            f = a*(a-1);
+        int a = 4;
+        int f = 0;
+        int num = 0;
+        while (f <= a) {
+            num = num * f;
             // f++;
         }
-        System.out.println(f);
+        System.out.println(num);
 
-
-        // Practice  --------->
+        // Practice --------->
         // System.out.print("Enter Number : ");
         // int a = 8;
         // int n=0;
         // for(int i=1;i<=10;i++){
-        //     int mul=a*i;
-        //     System.out.println(a+" * "+i+" = "+mul);
-        //     n=n+mul;
-        //     }
+        // int mul=a*i;
+        // System.out.println(a+" * "+i+" = "+mul);
+        // n=n+mul;
+        // }
         // System.out.println("The Sum of Table 8 : "+n);
-}}
+    }
+}
