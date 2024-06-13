@@ -49,15 +49,23 @@ public class Practice5 {
         // System.out.println("Factorial of "+a+" : "+f);
         // }
 
+        // Practice 6 ------->
+        int a=4;
+        int f=1;
+        while (f<=a) {
+            f=f+a;
+        }
+        System.out.println(f);
+
 
         // Practice  --------->
-        System.out.print("Enter Number : ");
-        int a = 8;
-        int n=0;
-        for(int i=1;i<=10;i++){
-            int mul=a*i;
-            System.out.println(a+" * "+i+" = "+mul);
-            n=n+mul;
-            }
-        System.out.println("The Sum of Table 8 : "+n);
+        // System.out.print("Enter Number : ");
+        // int a = 8;
+        // int n=0;
+        // for(int i=1;i<=10;i++){
+        //     int mul=a*i;
+        //     System.out.println(a+" * "+i+" = "+mul);
+        //     n=n+mul;
+        //     }
+        // System.out.println("The Sum of Table 8 : "+n);
 }}
