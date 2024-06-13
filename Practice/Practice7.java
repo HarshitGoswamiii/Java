@@ -82,4 +82,14 @@ public class Practice7 {
     //     int avg= i/4;
     //     System.out.println("Average : " + avg);
         
+
+    // Practice 9 ------>
+
+    static int conv(int x){
+        return ((x*9)/5)+32;
+    }
+    public static void main(String[] args) {
+        int w=5;
+        System.out.println(conv(w));
+    }
     }
