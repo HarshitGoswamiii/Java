@@ -18,6 +18,6 @@ public class java10_oops {
         manjeet.age = 18;
         manjeet.height= 6;
         manjeet.name="Manjeet";       
-        
+         System.out.println("");
     }
 }
