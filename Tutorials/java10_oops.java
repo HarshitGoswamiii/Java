@@ -4,8 +4,10 @@ public class java10_oops {
         String name;
         int age;
         int height;
-        public void getage(){
+        public void getdetails(){
             System.out.println("Age : " + age);
+            System.out.println("name : " + name);
+            System.out.println("Height : " + height);
         }
 
     }
