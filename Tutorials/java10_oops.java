@@ -27,8 +27,7 @@ public class java10_oops {
             harshit.getDetails(); // Call the method to print details
         }
     }
-    
-
+}
     // class Person {
     //     String name;
     //     int age;
@@ -52,5 +51,5 @@ public class java10_oops {
     //     manjeet.height = 6;
     //     manjeet.name = "Manjeet";
     //     harshit.getdetails();
-    }
+    
 
