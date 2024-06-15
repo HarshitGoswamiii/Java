@@ -4,7 +4,7 @@ public class java10_oops {
         String name;
         int age;
         int height;
-        public void getdetails(){
+        public void  getdetails(){
             System.out.println("Age : " + age);
             System.out.println("name : " + name);
             System.out.println("Height : " + height);
@@ -20,6 +20,6 @@ public class java10_oops {
         manjeet.age = 18;
         manjeet.height= 6;
         manjeet.name="Manjeet";       
-         System.out.println("");
+         System.out.println(Harshit.getdetails());
     }
 }
