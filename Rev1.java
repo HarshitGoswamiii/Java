@@ -14,5 +14,7 @@ public class Rev1 {
       int e = s.nextInt();
       int sum = a+b+c+d+e;
       System.out.println("Sum : "+sum);
+      double percentage = sum/5;
+      System.out.println("Percentage : "+percentage);
     }
 }
