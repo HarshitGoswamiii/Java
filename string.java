@@ -36,9 +36,17 @@ public class string {
         if(a<250000){
             System.out.println("No Tax ! ");
         }
-        else if(a==250000 || a<=500000){
+        else if(a==250000 || a<500000){
             int d= 5*a/100;
             System.out.println("Total Amount : "+(d+a));
+        }
+        else if(a==500000 || a<1000000){
+            int d1= 20*a/100;
+            System.out.println("Total Amount : "+(d1+a));
+        }
+        else{
+            int d2 = 30*a/100;
+            System.out.println("Total Amount : "+(d2+a));
         }
     }
 }
