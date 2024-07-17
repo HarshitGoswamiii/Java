@@ -12,6 +12,13 @@ public class string {
         // System.out.println(letter);
 
         // 4th problem
-        
+        // String a= "Hello I'm  Harshit   Goswami";
+        // int a1 = a.indexOf(' ');
+        // System.out.println(a1);
+
+        int e = 76;
+        int h = 76;
+        int m = 76;
+
     }
 }
