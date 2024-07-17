@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class string {
     public static void main(String[] args) {
         // String a = "Happy Birthday";
@@ -26,5 +29,9 @@ public class string {
         // else{
         //     System.out.println("Pass !");
         // }
+
+        Scanner s= new Scanner(System.in);
+        System.out.print("Enter your Salary : ");
+        int a = s.nextInt();
     }
 }
