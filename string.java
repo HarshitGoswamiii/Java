@@ -33,5 +33,12 @@ public class string {
         Scanner s= new Scanner(System.in);
         System.out.print("Enter your Salary : ");
         int a = s.nextInt();
+        if(a<250000){
+            System.out.println("No Tax ! ");
+        }
+        else if(a==250000 || a<=500000){
+            int d= 5*a/100;
+            System.out.println("Total Amount : "+(d+a));
+        }
     }
 }
