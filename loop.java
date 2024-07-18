@@ -1,9 +1,9 @@
 public class loop {
     public static void main(String[] args){
-        int a=100;
-        while(a<120){
+        int a=110;
+        while(a>=100){
             System.out.println(a);
-            a++;
+            a--;
         }
     }
 }
