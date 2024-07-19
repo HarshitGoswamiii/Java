@@ -1,29 +1,31 @@
 public class loop {
     public static void main(String[] args){
 
-        int i=1;
-        int rows=5;
-        while(i<=rows){
-            int f=1;
-            while(f<i){
-                System.out.print("*");
-                f++;
-            }
-            System.out.print("\n");
-            i++;
-        }
+        
 
-        int a=1;
-        int rows1=5;
-        while(rows1>=a){
-            int k1=1;
-            while(k1<a){
-                System.out.print("*");
-                k1++;
-            }
-            System.out.print("\n");
-            a--;
-        }
+        // int i=1;
+        // int rows=5;
+        // while(i<=rows){
+        //     int f=1;
+        //     while(f<i){
+        //         System.out.print("*");
+        //         f++;
+        //     }
+        //     System.out.print("\n");
+        //     i++;
+        // }
+
+        // int a=4;
+        // // int rows1=5;
+        // while(a>=1){
+        //     int k1=1;
+        //     while(k1<=a){
+        //         System.out.print("*");
+        //         k1++;
+        //     }
+        //     System.out.print("\n");
+        //     a--;
+        // }
 
         // int i=1;
         // int f=1;
