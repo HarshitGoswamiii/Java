@@ -12,14 +12,14 @@ public class Practice5 {
 
         // Practice 2-------->
 
-        // int n1 = 5;
-        // int k1=1;
-        // int k = 0;
-        // while (k <= n1) {
-        // k1 += n1;
-        // k++;
-        // }
-        // System.out.println("Ans. : " + k1);
+        int n1 = 5;
+        int k1=0;
+        int k = 0;
+        while (k <= n1) {
+        k1 =k1+ n1;
+        k++;
+        System.out.println("Ans. : " + k1);
+        }
 
         // Practice 3 ------>
 
@@ -61,7 +61,16 @@ public class Practice5 {
 
         // Practice 7 -------->
 
-        
+        // int row=4;
+        // while(row>=1){
+        //     int j=1;
+        //     while(j<=row){
+        //         System.out.print("*");
+        //         j++;
+        //     }
+        //     System.out.print("\n");
+        //     row--;
+        // }
 
         // Practice 9 --------->
         // int a = 8;
