@@ -85,8 +85,9 @@ public class Practice5 {
         // Practice 11 --------->
         int a=0;
         int j=5;
-        for(int i=0; i<+5;i++){
-            
+        for(int i=0; i<=j;i++){
+            a= a+i;
         }
+        System.out.println("Sum : "+a);
     }
 }
