@@ -12,14 +12,14 @@ public class Practice5 {
 
         // Practice 2-------->
 
-        int n1 = 5;
-        int k1=0;
-        int k = 0;
-        while (k <= n1) {
-        k1 =k1+ n1;
-        k++;
-        System.out.println("Ans. : " + k1);
-        }
+        // int n1 = 5;
+        // int k1=0;
+        // int k = 0;
+        // while (k <= n1) {
+        // k1 =k1+ k;
+        // k++;
+        // System.out.println("Ans. : " + k1);
+        // }
 
         // Practice 3 ------>
 
@@ -81,5 +81,12 @@ public class Practice5 {
         // n=n+mul;
         // }
         // System.out.println("The Sum of Table 8 : "+n);
+
+        // Practice 11 --------->
+        int a=0;
+        int j=5;
+        for(int i=0; i<+5;i++){
+            
+        }
     }
 }
