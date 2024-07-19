@@ -1,12 +1,20 @@
 public class loop {
     public static void main(String[] args){
 
-        int i1=1;
-        int a=3;
-        for(int i=1;i<=a;i++){
-            i1 = i1*i;
+        int i=1;
+        int f=1;
+        while(i<=5){
+            f=f*i;
+            i++;
         }
-        System.out.println("Factorial of "+a+" : "+i1);
+        System.out.println(f);
+
+        // int i1=1;
+        // int a=3;
+        // for(int i=1;i<=a;i++){
+        //     i1 = i1*i;
+        // }
+        // System.out.println("Factorial of "+a+" : "+i1);
 
         // int n=9;
         // for(int i=10;i>=1;i--){
