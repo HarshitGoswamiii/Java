@@ -24,6 +24,10 @@ public class array {
     //     }
 
     int[] physics={70,80,87,78};
-    for(int element)
+    for(int element:physics){
+        int sum =0;
+        sum+= element;
+        
+    }
     }
 }
