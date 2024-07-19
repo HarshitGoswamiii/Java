@@ -24,10 +24,10 @@ public class array {
     //     }
 
     int[] physics={70,80,87,78};
+    float sum =0;
     for(int element:physics){
-        int sum =0;
-        sum+= element;
-        
+        sum += element;
     }
+    System.out.println(sum/physics.length);
     }
 }
