@@ -1,14 +1,16 @@
 public class loop {
     public static void main(String[] args){
 
-        int a=8;
-        for(int i=1; i<=10;i++){
-            int a1=0;
-            int mul=a*i;
-            System.out.println(a+"*"+i+"="+mul);
-            a1+=mul;
-            System.out.println(a1);
-        }
+        
+
+        // int a=8;
+        // int a1=0;
+        // for(int i=1; i<=10;i++){
+        //     int mul=a*i;
+        //     System.out.println(a+"*"+i+"="+mul);
+        //     a1+=mul;
+        // }
+        // System.out.println(a1);
 
         // int i=1;
         // int rows=5;
