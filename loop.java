@@ -1,13 +1,15 @@
 public class loop {
     public static void main(String[] args){
 
-        int i=1;
-        int f=1;
-        while(i<=5){
-            f=f*i;
-            i++;
-        }
-        System.out.println(f);
+        
+
+        // int i=1;
+        // int f=1;
+        // while(i<=5){
+        //     f=f*i;
+        //     i++;
+        // }
+        // System.out.println(f);
 
         // int i1=1;
         // int a=3;
