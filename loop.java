@@ -1,7 +1,15 @@
 public class loop {
     public static void main(String[] args){
 
-        
+        int i=1;
+        int f=1;
+        while(i<5){
+            while(f<i){
+                System.out.print("*");
+                i++;
+            }
+            System.out.print("\n");
+        }
 
         // int i=1;
         // int f=1;
