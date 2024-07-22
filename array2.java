@@ -14,17 +14,19 @@ public class array2 {
                 //     System.out.print(element+" ");
                 // }
                 
-        int[] red = {1,2,3,4,5};
+        int[] red = {1,55,30,33,5};
         int max=0;
         int min=0;
         for(int e:red){
             if(e>max){
                 max=e;
             }
-            else if(e<min){
-                min=e;
+        }
+        for(int element:red){
+            if(element<min){
+                min = element;
             }
         }
-        System.out.println(min);
         System.out.println(max);
+        System.out.println(min);
     }}
