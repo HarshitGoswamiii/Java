@@ -30,10 +30,6 @@ public class array {
         // System.out.println(sum/physics.length);
         // }
         
-        int[] physics={70,80,87,78};
-        for(int element: physics){
-            int[] p={};
-            p[i]=element;
-        }
+        
     }
 }
