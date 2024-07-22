@@ -15,18 +15,20 @@ public class array2 {
                 // }
                 
         int[] red = {1,55,30,33,5};
-        int max=0;
+        // int max=0;
+        // for(int e:red){
+            //     if(e>max){
+                //         max=e;
+                //     }
+                // }
+                // System.out.println(max);
+
         int min=0;
-        for(int e:red){
-            if(e>max){
-                max=e;
-            }
-        }
         for(int element:red){
-            if(element<min){
+            if(min>element){
                 min = element;
             }
         }
-        System.out.println(max);
         System.out.println(min);
+
     }}
