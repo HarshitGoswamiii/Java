@@ -23,11 +23,17 @@ public class array {
     //     System.out.println("Not Present");
     //     }
 
-    int[] physics={70,80,87,78};
-    float sum =0;
-    for(int element:physics){
-        sum += element;
-    }
-    System.out.println(sum/physics.length);
+    // float sum =0;
+    // for(int element:physics){
+        //     sum += element;
+        // }
+        // System.out.println(sum/physics.length);
+        // }
+        
+        int[] physics={70,80,87,78};
+        for(int element: physics){
+            int[] p={};
+            p[i]=element;
+        }
     }
 }
