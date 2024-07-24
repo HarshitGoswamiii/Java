@@ -1,14 +1,11 @@
 public class factorials {
-    static int table(int n){
-        int n1=1;
+    static void table(int n){
         for(int i = 0; i<=10;i++){
-            n1= n*i;
+            System.out.println(n+" * "+i+" = "+(n*i));
         }
-        return n1;
     }
 
     public static void main(String[] args) {
-        int mul=table(5);
-        System.out.println(mul);
+        table(5);
     }
 }
