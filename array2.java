@@ -22,16 +22,17 @@ public class array2 {
                         // }
                         // System.out.println(max);
                         
+                        // int min= red[0];
+                        // for(int element:red){
+                        //     if(min>element){
+                        //         min = element;
+                        //     }
+                        //     // else if(min<element){
+                        //         //     min=element;
+                        //         // }
+                        //     }
+                        //     System.out.println(min);
+
         int[] red = {75,55,1,33,5};
-        int min= red[0];
-        for(int element:red){
-            if(min>element){
-                min = element;
-            }
-            // else if(min<element){
-            //     min=element;
-            // }
-        }
-        System.out.println(min);
 
     }}
