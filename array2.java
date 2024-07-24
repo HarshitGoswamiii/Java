@@ -23,7 +23,7 @@ public class array2 {
                 // }
                 // System.out.println(max);
 
-        int min=0;
+        int min= arr[0];
         for(int element:red){
             if(min>element){
                 min = element;
