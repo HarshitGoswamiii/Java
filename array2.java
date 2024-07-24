@@ -33,6 +33,11 @@ public class array2 {
                         //     }
                         //     System.out.println(min);
 
-        int[] red = {75,55,1,33,5};
+        // int[] red = {75,55,1,33,5};
+        // for(int element : red){
+        //     if(red[element] < red[element+1]){
+        //         System
+        //     }
+        // }
 
     }}
