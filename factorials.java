@@ -21,10 +21,19 @@ public class factorials {
             System.out.print("\n");
         }
     }
+    static int sum(int n){
+        if(n==1){
+            return 1;
+        }
+        else{
+            return n += sum(n-1);
+        }
+    }
 
     public static void main(String[] args) {
         // table(5);
-        pattern(4);
-        pattern2(4);
+        // pattern(4);
+        // pattern2(4);
+        System.out.println(sum(5));
     }
 }
