@@ -29,11 +29,19 @@ public class factorials {
             return n += sum(n-1);
         }
     }
+    static void avg(int... arr){
+        int sum=0;
+        for(int i = 0; i<arr.length; i++){
+            sum += arr[i];
+        }
+        System.out.println(sum/arr.length);
+    }
 
     public static void main(String[] args) {
         // table(5);
         // pattern(4);
         // pattern2(4);
-        System.out.println(sum(5));
+        // System.out.println(sum(5));
+        avg(40,50,30,33,43);
     }
 }
