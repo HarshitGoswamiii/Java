@@ -19,6 +19,7 @@ public class java11_oops {
         harshit.name="Harshit Goswami";
         harshit.printdetail();
         harshit.getsalary();
+        System.out.println("");
         details john = new details();
         john.roll_no=19;
         john.salary=12;
