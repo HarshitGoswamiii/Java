@@ -28,7 +28,7 @@ class square { // Practice 3
     }
 }
 
-class rectangle{
+class rectangle{ // Practice 4
     int l;
     int b;
 
@@ -59,9 +59,12 @@ public class practise8 {
 
         // Practice 4 --------->>
         rectangle r = new rectangle();
-        r.l=10;
-        r.b=5;
-        r.area();
-        r.parameter();
+        // r.l=10;
+        // r.b=5;
+        // r.area();
+        // r.parameter();
+
+        //  Practice 5 --------->>
+        
     }
 }
