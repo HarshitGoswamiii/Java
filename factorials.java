@@ -36,12 +36,21 @@ public class factorials {
         }
         System.out.println(sum/arr.length);
     }
+    static void rec1(int n){
+        if(n==1){
+            System.out.println("*");
+        }
+        else{
+            
+        }
+    }
 
     public static void main(String[] args) {
         // table(5);
         // pattern(4);
         // pattern2(4);
         // System.out.println(sum(5));
-        avg(40,50,30,33,43);
+        // avg(40,50,30,33,43);
+
     }
 }
