@@ -5,6 +5,9 @@ class Employee{
         System.out.println(salary);
     }
     public void getname(){
+        System.out.println(name);
+    }
+    public void setname(){
         
     }
 }
