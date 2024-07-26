@@ -1,9 +1,14 @@
 class details{
     int roll_no;
     String name;
+    int salary;
     public void printdetail(){
         System.out.println(roll_no);
         System.out.println(name);
+    }
+    public void  getsalary(){
+        salary = salary*1000;
+        System.out.println(salary);
     }
 }
 public class java11_oops {
