@@ -12,6 +12,14 @@ class Employee{
         name = n;
     }
 }
+
+class square{
+    int side;
+    public void parameter(){
+        System.out.println("Parameter : "+(side*4));
+    }
+    public void area
+}
 public class practise8 {
     public static void main(String[] args) {
 
@@ -23,6 +31,6 @@ public class practise8 {
         harshit.getsalary();
 
         // Practice 2 ---------->>
-        
+
     }
 }
