@@ -2,6 +2,7 @@ class Employee{
     int salary;
     String name;
     public void getsalary(){
+        salary = salary*1000;
         System.out.println(salary);
     }
     public void getname(){
@@ -13,6 +14,10 @@ class Employee{
 }
 public class practise8 {
     public static void main(String[] args) {
-        
+        Employee harshit = new Employee();
+        harshit.salary = 12;
+        harshit.setname("Harshit Goswami");
+        harshit.getname();
+        harshit.getsalary();
     }
 }
