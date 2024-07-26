@@ -28,6 +28,19 @@ class square { // Practice 3
     }
 }
 
+class rectangle{
+    int l;
+    int b;
+
+    public void parameter() {
+        System.out.println("Parameter : " + ((l+b)*2));
+    }
+
+    public void area() {
+        System.out.println("Area : " + (l * b));
+    }
+}
+
 public class practise8 {
     public static void main(String[] args) {
 
@@ -45,6 +58,10 @@ public class practise8 {
         // a.parameter();
 
         // Practice 4 --------->>
-
+        rectangle r = new rectangle();
+        r.l=10;
+        r.b=5;
+        r.area();
+        r.parameter();
     }
 }
