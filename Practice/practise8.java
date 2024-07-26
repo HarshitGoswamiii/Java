@@ -28,11 +28,14 @@ public class practise8 {
         // Practice 1 --------->>
         Employee harshit = new Employee();
         harshit.salary = 12;
-        harshit.setname("Harshit Goswami");
-        harshit.getname();
-        harshit.getsalary();
+        // harshit.setname("Harshit Goswami");
+        // harshit.getname();
+        // harshit.getsalary();
 
         // Practice 2 ---------->>
-
+        square a = new square();
+        a.side = 5;
+        a.area();
+        a.parameter();;
     }
 }
