@@ -18,7 +18,9 @@ class square{
     public void parameter(){
         System.out.println("Parameter : "+(side*4));
     }
-    public void area
+    public void area(){
+        System.out.println("Area : "+(side*side));
+    }
 }
 public class practise8 {
     public static void main(String[] args) {
