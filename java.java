@@ -3,8 +3,8 @@ public class java {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the Number : ");
-        int a = s.nextInt();
-        if(a>0){
+        char a = s.next().charAt(0);
+        if(a>='A' && a<='Z'){
             System.out.println("Positive !");
         }
         else{
