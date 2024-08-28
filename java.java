@@ -4,6 +4,11 @@ public class java {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the Number : ");
         int a = s.nextInt();
-        
+        if(a>0){
+            System.out.println("Positive !");
+        }
+        else{
+            System.out.println("Negative !");
+        }
     }
 }
