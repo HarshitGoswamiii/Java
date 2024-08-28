@@ -1,8 +1,8 @@
 // import java.util.Scanner;
 public class java {
     public static void main(String[] args){
-        // int a = 2;
-        for(char i = 'A'; i<='Z';i++){
+        int a = 2321;
+        for( int i=0 ; i>a ; i--){
             System.out.println(i);
         }
     }
