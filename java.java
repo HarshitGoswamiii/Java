@@ -6,5 +6,12 @@ public class java {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter Number : ");
         int a = s.nextInt();
+        System.out.println(a);
+        if(a%2==0){
+            System.out.println("Even !");
+        }
+        else{
+            System.out.println("Odd !");
+        }
         }
     }
