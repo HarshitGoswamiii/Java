@@ -5,6 +5,6 @@ public class java {
         int temp=a;
         a=b;
         b=temp;
-        
+        System.out.println("Swapped Value : "+a+" : "+b);
         }
     }
