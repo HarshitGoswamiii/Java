@@ -3,8 +3,10 @@ public class java {
     public static void main(String[] args){
         int a = 2321;
         int rev = 0;
-        for( int i=0 ; i>a ; i--){
-            System.out.println(i);
+            for(a; a!0;a/10){
+                int d= a%10;
+                rev= rev*10+d;
+            }
+            System.out.println("Reverse : "+rev);
         }
     }
-}
