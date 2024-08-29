@@ -1,9 +1,9 @@
 public class java {
     public static void main(String[] args){
-        int n =5;
-        int n1=0;
+        int n =3;
+        int n1=1;
         for(int i=1;i<=n;i++){
-            n1 = i*(n-1);
+            n1 = i*n1;
         }
         System.out.println(n1);
         }
