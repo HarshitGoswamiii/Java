@@ -1,5 +1,3 @@
-import java.awt.im.InputContext;
-import java.lang.classfile.instruction.SwitchCase;
 import java.util.Scanner;
 public class jva {
     public static void main(String[] args) {
@@ -9,20 +7,20 @@ public class jva {
         System.out.println("Select Your Operator : \n 1 : Addition\n 2 : Subtraction \n 3 : Multiply \n 4 : Divide");
         int calc = s.next().charAt(0);
         switch (calc) {
-            case 1 :
+            case '1' :
                 System.out.println(first+second);
                 break;
-            case 2 : 
+            case '2' : 
                 System.out.println(first-second);
                 break;
-            case 3 : 
+            case '3' : 
                 System.out.println(first*second);
                 break;
-            case 4 : 
+            case '4' : 
                 System.out.println(first/second);
                 break;
             default:
-                System.out.println("Invalid OPerator ! ");;
+                System.out.println("Invalid OPerator ");;
         }
         }
     }
