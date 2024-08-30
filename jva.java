@@ -9,7 +9,7 @@ public class jva {
         }
     }
     public static void main(String[] args) {
-        int num1=10;
+        int num1=5;
         System.out.println(add(num1));
        
     }
