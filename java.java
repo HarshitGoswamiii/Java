@@ -6,5 +6,6 @@ public class java {
             a1/=10;
             a2++;
         }
+        System.out.println(a2);
     }
     }
