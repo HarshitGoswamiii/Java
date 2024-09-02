@@ -4,6 +4,7 @@ public class power {
             return (base * powercalc(base, powerraised - 1));
         } else {
             return 1;
+            
         }
     }
 
