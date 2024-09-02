@@ -10,6 +10,7 @@ public class power {
 
     public static void main(String[] args) {
         int base1 = 3, powerraised1 = 4;
+        
         System.out.println(powercalc(base1, powerraised1));
     }
 }
