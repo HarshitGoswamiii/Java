@@ -1,16 +1,19 @@
 public class pattern {
     public static void main(String[] args) {
-        for (int k = 0; k < 4; k++) {
-            for (int l = 0; l < k; l++) {
-                System.out.print("*");
+        char ch1='A',ch2='E';
+        for (int k = 1; k <= (ch2 - 'A' + 1); ++k) {
+            for (int l = 1; l <= k; ++l) {
+                System.out.print(ch1+" ");
             }
+            ++ch1;
+
             System.out.print("\n");
         }
-        for (int i = 4; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                System.out.print("*");
-            }
-            System.out.print("\n");
-        }
+        // for (int i = ch1; i > ch2; --i) {
+        //     for (int j = 1; j <= i; ++j) {
+        //         System.out.print(j);
+        //     }
+        //     System.out.print("\n");
+        // }
     }
 }
