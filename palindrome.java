@@ -1,15 +1,12 @@
-
-import java.util.stream.Stream;
-
 public class palindrome {
     public static void main(String[] args){
-        String spell = "Radar";
+        String spell = "Radr";
         String rev="";
         for(int i=(spell.length()-1) ;i>=0;--i){
             rev = rev+spell.charAt(i);
         }
-        System.out.print(rev);
-        if(rev.toLowerCase()==spell.toLowerCase()){
+        System.out.println(rev);
+        if(rev.toLowerCase().equals(spell.toLowerCase())){
             System.out.println("This String is Palindrome String !");
         }
         else{
