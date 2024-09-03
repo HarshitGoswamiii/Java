@@ -1,10 +1,10 @@
 public class integer {
     public static void main(String[] args) {
-        int num = 3, power = 4;
+        int num = 4, power = 4;
         int result = 1;
-        for (int i = 0;i<=power;i++) {
-            result = num * (power-i);
+        for (int i = 1;i<=power;i++) {
+            result *=num;
         }
-        System.out.print(num + "^" + power + "=" + result);
+        System.out.println(num + " ^ " + power + " = " + result);
     }
 }
