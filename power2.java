@@ -8,7 +8,8 @@ public class power2 {
         System.out.print("Enter The Number : ");
         int power = s.nextInt();
         for (int i = 0; i < power; i++) {
-            
+            num *= i;
         }
+        System.out.print(num);
     }
 }
