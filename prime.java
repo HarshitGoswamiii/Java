@@ -10,16 +10,17 @@ public class prime {
         int last = s.nextInt();
         boolean flag = false;
         while (num < last) {
-            for (int i = 2; i <= num / 2; i++) {
+            for (int i = 2; i <= num / 2; ++i) {
                 if (num % i == 0) {
                     flag = true;
                     break;
                 }
             }
-        }
         if (!flag && num != 0 && num != 1) {
             System.out.println(num + " ");
-            ++num;
+        
+        ++num;
+        }
         }
         // if (!flag) {
         // System.out.println("Prime Number ! ");
