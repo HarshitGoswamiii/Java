@@ -7,10 +7,10 @@ public class power2 {
         int num = s.nextInt();
         System.out.print("Enter The Value of Power : ");
         int power = s.nextInt();
-        for (int i = 1; i <= power; i++) {
-            num = num*i;
-            i++;
+        int result = 1;
+        for (int i = power; i >0; --i) {
+            result *= i;
         }
-        System.out.print(num);
+        System.out.print(result);
     }
 }
