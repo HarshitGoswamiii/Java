@@ -9,7 +9,7 @@ public class power2 {
         int power = s.nextInt();
         int result = 1;
         for (int i = power; i >0; --i) {
-            result *= i;
+            result *= num;
         }
         System.out.print(result);
     }
