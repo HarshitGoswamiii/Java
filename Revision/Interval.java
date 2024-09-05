@@ -7,6 +7,7 @@ public class Interval {
                 ++num;
             }
         }
+        
     }
 
     static boolean prime(int n) {
